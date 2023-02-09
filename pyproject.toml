@@ -1,0 +1,19 @@
+# 打包工具选择，可以调研一下poetry的打包，不在python推荐中
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "package_name" # TODO
+version = "0.0.1"
+authors = [
+  { name="bs wu", email="author@example.com" },
+]
+description = "example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
